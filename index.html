@@ -12,7 +12,7 @@
   <title>[Cruz Bejarano Jorge Alejandro] · Portafolio</title>
 <!-- cierre de head: termina la zona de metadatos -->
 </head>
-<!-- body: todo lo que SÍ se ve en pantalla va acá dentro -->
+<!-- body: todo lo que SÍ se ve en pan  talla va acá dentro -->
 <body>
 
   <!-- header: cabecera de la página, va una sola vez -->
@@ -31,6 +31,7 @@
         <li><a href="#skills">Skills</a></li>
         <!-- salta al footer con id="contacto" -->
         <li><a href="#contacto">Contacto</a></li>
+        <li><a class="hover:text-emerald-400" href="#testimonios">Testimonios</a></li>
       <!-- cierre de la lista -->
       </ul>
     <!-- cierre de nav -->
@@ -73,6 +74,21 @@
     <!-- cierre de la sección "skills" -->
     </section>
 
+<!-- section nueva: id="testimonios" debe ser IGUAL al href de arriba -->
+<section id="testimonios" class="max-w-5xl mx-auto px-6 py-14">
+  <!-- h2: título de la sección, mismo estilo que las demás -->
+  <h2 class="text-2xl font-bold mb-6">Testimonios</h2>
+  <!-- grid-cols-1 md:grid-cols-2: una columna en celular, dos desde 768px -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- article: el testimonio se entiende leído solo, por eso NO es un div -->
+    <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+      <!-- p: la cita del testimonio -->
+      <p class="text-slate-600 text-sm mb-3">"Excelente predisposición para aprender."</p>
+      <!-- p: autor de la cita, más chico y en negrita -->
+      <p class="font-semibold text-sm">— Docente, UTH</p>
+    </article>
+  </div>
+</section>
 
 <section id="proyectos">
 <h2>Contacto</h2>
